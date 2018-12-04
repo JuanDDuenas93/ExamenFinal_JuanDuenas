@@ -31,7 +31,7 @@ public class ApplicationServicesTests {
     @Test
     public void testingFromCelsiusToFahrenheit(){
         converterStubTest = new TemperatureConversionStub();
-        Assert.assertEquals(71.6,converterStubTest.fromCelsiusToFahrenheit(22),0.0);
+        Assert.assertEquals(50.0,converterStubTest.fromCelsiusToFahrenheit(10),0.0);
     }
     
     @Test
