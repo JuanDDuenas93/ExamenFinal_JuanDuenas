@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://getbootstrap.com/docs/4.0/examples/cover/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
+
+        <title>ARSW - TempConverter</title>
+        
+       
+    </head>
+
+    <body class="text-center">
+
+
+            <main role="main" class="inner cover" id = "content">
+                <h1>Welcome to the Temperature Converter API</h1>
+                <h3>We currently support two funcitonalities:</h3>
+                <h3>- Convert from Celsius to Fahrenheit</h3>
+                <h3>- Convert from Fahrenheit to Celsius</h3>
+                
+                <h2>Want to give it a try?</h2>
+                <h3>Below you can convert a temperature from Celsius to Fahrenheit</h3>
+                Temperature in Celsius: <input type="text" name="Celsius" id="tempInCelsius" >
+                <button type="button" onclick="TempConverterController.convertFromCelsiusToFahrenheit()">Convert to Fahrenheit</button>
+                
+                <h3>Below you can convert a temperature from Fahrenheit to Celsius </h3>
+                Temperature in Fahrenheit: <input type="text" name="Fahrenheit" id="tempInFahrenheit" >
+                <button type="button" onclick="TempConverterController.convertFromFahrenheitToCelsius()">Convert to Celsius</button>
+            </main>
+
+            <footer class="mastfoot mt-auto">
+                
+            </footer>
+
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script type="text/javascript" src="js/TempConverter.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+    </body></html>
